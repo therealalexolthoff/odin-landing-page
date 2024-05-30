@@ -61,12 +61,12 @@
 
 .information-header {
     font-weight: 800;
+    text-align: center;
 }
 
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 header {
@@ -109,4 +109,31 @@ footer > p {
 }
 .right{
     margin-left: 0px;
+}
+
+.cards-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bordered-img {
+    border: 3px blue solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    mask-image: none;
+}
+.centered-p {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.card {
+    margin: 0px -18%;
+    padding: 0px;
+}
+.cards-section {
+    margin-bottom: 100px;
 }
