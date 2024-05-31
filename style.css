@@ -34,9 +34,8 @@
 }
 .quote-section {
     background-color: #E5E7EB;
-    margin-bottom: 100px;
     width: 100%;
-    padding: 100px;
+    padding: 90px;
 }
 .information-header, .quote-text {
     color: #1f2937;
@@ -49,7 +48,7 @@
     margin: auto;
     text-align: justify;
 }
-.button, .cta {
+.button, .cta-box {
     background-color: #3882f6;
 }
 .button {
@@ -146,4 +145,44 @@ footer > p {
 }
 .cards-section {
     margin-bottom: 100px;
+}
+.cta-section {
+    padding: 100px 50px;
+    background-color: white;
+}
+.cta-box {
+    margin: auto;
+    height: 130px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cta-left > p {
+    margin-top: 0px;
+    color: lightgray;
+    font-weight: lighter;
+}
+.cta-left > h2 {
+    font-size: 25px;
+    margin-bottom: 2px;
+    color: white;
+}
+.cta-button {
+    background-color: #3882f6;
+    font-size: 15px;
+    border: 1px white solid;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+cite {
+    text-align: center;
+    margin-left: 55%;
+    margin-top: 1%;
+    display: inline-block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
 }
